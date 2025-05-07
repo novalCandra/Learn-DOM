@@ -33,3 +33,13 @@
     ### Fungsi selector pada javascript kita bisa mengambil properti yanga ada Di Webb Kita
     - dari style
     - perubahan Values
+
+    ### Mendapatkan Element HTML Berdasarkan Tag dan Class
+    - HTMLCollection adalah Kumpulan-kumpulan pada Object pada HTML
+    yang diaman kita bisa mengubah-ubah sebuah Object HTML.
+
+    HTMLCollection hanya mirip dengan Array saja bukan Array.
+
+## Three Day 
+    ### Lebih mudah Memilih Element dengan Menggunakan Query Selector
+    
