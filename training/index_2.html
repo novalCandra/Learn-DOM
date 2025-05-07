@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project Lampu</title>
+
+    <style>
+        img {
+            position: relative;
+            /* top: 10px; */
+            left: 37rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Project Membuat Sebuah Lampu</h1>
+    </header>
+    <main>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, suscipit amet. Iusto sed aperiam animi adipisci
+            blanditiis numquam, corrupti voluptatibus at corporis facilis esse, inventore a et sint, hic deserunt.
+        </p>
+        <img src="./img/lampu_off.jpeg" alt="Foto Lampu" width="100px" , id="lampu">
+    </main>
+
+    <button type="button" onclick="pergerakan_lampu('./img/lampu_off.jpeg')">
+        Mati
+    </button>
+
+    <button type="button" onclick="pergerakan_lampu('./img/lampu_online.jpg')">
+        Hidup
+    </button>
+
+    <script>
+        function pergerakan_lampu(gambar) {
+            document.getElementById('lampu').src = gambar;
+            document.getElementById('lampu').src = gambar;
+        }
+    </script>
+</body>
+
+</html>
+
+
+<!-- Nah Proyek Membuat Gambar Lampu HIdup dan Mati
+ - Error dikarenakan aku membuat fuction yang parameter 2 , dan hasil gambar online dan off ketimpa
+ dan pemanggilan function tidak konsisten 
+
+ 
+-->
