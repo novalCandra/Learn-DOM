@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Peruhan Content</title>
+</head>
+
+<body>
+    <header>
+        <h1>Judul</h1>
+    </header>
+
+    <main>
+        <table border="1px">
+            <tr>
+                <th>Nama</th>
+                <th>Kelas</th>
+                <th>Umur</th>
+            </tr>
+
+            <!-- Isi Contet Table -->
+            <tr>
+                <td>Ucup</td>
+                <td>XI RPL 2</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>Otong</td>
+                <td>XI RPL 2</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>Surotong</td>
+                <td>XI RPL 2</td>
+                <td>13</td>
+            </tr>
+        </table>
+        <br>
+        <button type="button" onclick="clik_button(nama)">
+            click Me
+        </button>
+    </main>
+
+    <br>
+    <footer>
+        &copy; Training Four Today 2025
+    </footer>
+
+    <script>
+        
+        alert("Welcome To Project Four Today")
+        
+        const nama = prompt("Masukan Nama Kamu");
+
+        function clik_button(muncul){
+            alert(`Hello ${nama}`)
+            console.log(`Hello ${nama}`)
+        }
+
+        const judul = document.querySelector('h1');
+
+        judul.innerText = "Project Four Today";
+    </script>
+</body>
+
+</html>
