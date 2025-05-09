@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Four Today</title>
+</head>
+
+<body>
+
+    <head>
+        <h1>Training Four Today</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Concats</a></li>
+            </ul>
+        </nav>
+    </head>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde a placeat neque minima totam magnam nam? Iure
+            illo, sequi eius odit magni alias blanditiis unde velit, beatae porro expedita id.</p>
+
+        <button type="button" onclick="nama(menyapa)">
+            click Me
+        </button>
+    </section>
+    <main>
+        <img src="img/lampu_online.jpg">
+    </main>
+
+    <footer>
+        &copy;Training Four Today 2025
+    </footer>
+
+    <script>
+
+        const menyapa = prompt("Masukan Nama Kamu");
+
+        function nama(){
+            alert(`Hello ${menyapa}`)
+            // console.log(menyapa)
+        }
+
+        const img = document.querySelector('img');
+        img.setAttribute('alt', 'Img_light')
+        console.log(img.alt)
+
+
+        // Melakukan Styling dengan DOM
+        const text = document.querySelector('p');
+        text.style.backgroundColor = 'red';
+        text.style.padding = '10px';
+        text.style.color = 'white';
+        text.style.fontSize = '20px'
+        text.style.fontWeight = 'bold';
+
+        const background = document.querySelector('body');
+        background.style.backgroundColor = 'skyblue';
+
+        const footer = document.querySelector('footer');
+        footer.style.fontWeight = '600'
+        footer.style.color = 'blue'
+    </script>
+</body>
+
+</html>
