@@ -43,3 +43,25 @@
 ## Three Day 
     ### Lebih mudah Memilih Element dengan Menggunakan Query Selector
     
+### Four Today
+    ### Fungsi dari Query Selector yang dimana kita bisa 
+    select sebuah Tag, Class, atau pun Id.
+
+    ### Swim-army-knife nya DOM untuk seleksi element
+
+    ###untyk mendapatkan nilai pada seluruh webiste menggunakan document.querySelectorAll('')
+
+    - Bedanya
+    1. document.querySelector() : Hanya Menampilkan ini dari element,class atau id tersebut
+    2. document.querySelectorAll() : Mengambil seluruh element, class atau id di dalam website tersebut
+
+    - kalau ingin mengambil element di dalam element
+    tinggal gini saja ('namaElement namaElement')
+    atau 
+    ('namaElement [attributnya]')
+    - Memanfaatkan Nodelist
+
+### Five Today
+    ### Atrubut yang di miliki OLeh HTML
+    - setAttribut : Artinya Menambahkan Sebuah Attribut yang ada Di HTML
+    - removeAttribut : Artinya Menghapus Atribut yang ada di HTML Kita
