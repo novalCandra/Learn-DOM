@@ -38,3 +38,10 @@ img.square {
 .border-danger {
 	border: 3px rgb(148, 26, 37) solid;
 }
+
+
+/* CSS untuk Class List */
+.tag_a{
+	text-decoration: none;
+	color: red;
+}
