@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Six Today</title>
+    <style>
+        .bg{
+            background-color: red;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hello Can</h1>
+    </header>
+    <main>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed quibusdam, itaque deserunt unde doloribus aliquid dignissimos? Dicta quidem dolorem, fugit libero officia harum fuga! Quo mollitia tempore dignissimos dolore!
+        </p>
+
+        <button type="button" onclick="perubahan_color()">
+            perubahan_color
+        </button>
+
+        <button type="button" onclick="penghapusan_color()">
+            penghapusan_color
+        </button>
+    </main>
+    <footer id="footer">
+        &copy;Training Six Today
+    </footer>
+
+    <script>
+        function perubahan_color(e){
+            const bg = document.getElementById('footer').classList.add('bg');
+        }
+
+        function penghapusan_color(a){
+            const bg = document.getElementById('footer').classList.remove('bg');
+        }
+    </script>
+</body>
+</html>
