@@ -14,14 +14,16 @@
 // 		'https://www.allaboutbirds.org/news/wp-content/uploads/2024/05/438159401-Prothonotary_Warbler-Ryan_Justice-FI-720x540.jpg'
 // };
 
-// const links = document.querySelectorAll('a');
+const links = document.querySelectorAll('a');
 
-// for (let link of links) {
-// 	// console.log(link.href)
-// 	link.style.color = 'rgb(0, 108, 134)';
-// 	link.style.textDecorationColor = 'magenta';
-// 	link.style.textDecorationStyle = 'wavy';
-// }	
+for (let link of links) {
+	// console.log(link.href)
+
+    link.classList.add('tag_a');
+	// link.style.color = 'rgb(0, 108, 134)';
+	// link.style.textDecorationColor = 'magenta';
+	// link.style.textDecorationStyle = 'wavy';
+}	
 
 
 // const images = document.querySelectorAll('.square');
