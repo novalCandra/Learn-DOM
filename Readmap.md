@@ -65,3 +65,19 @@
     ### Atrubut yang di miliki OLeh HTML
     - setAttribut : Artinya Menambahkan Sebuah Attribut yang ada Di HTML
     - removeAttribut : Artinya Menghapus Atribut yang ada di HTML Kita
+
+### Six Today
+    - Belajar Syle dengan Object ClassList pada DOM Javascript
+    - ClassList adalah sebuah Object untuk Style Sebuah Website,
+    yang dimana kita bisa mengisi style pada website tersebut
+
+    - Jadi class List Mempresentasikan Object yang mempresentasikan List atau Daftar
+
+    - ClassLIst itu seperti label-label yang di tempel di kotak.
+    ## Class LIst memeliki Properti
+        - add : Menambahkan Class
+        - remove : Menghapus Clas
+        - toggle : Seperti Button ON atau OFF
+        - contains : Memberikan Kondisi jika ada class true, kalau tidak ada maka false
+
+    ### tetapi tetap kita membutuhkan CSS yah classList itu hanya mengumpulkan class-class tersebut
