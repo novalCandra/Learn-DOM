@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Nine</title>
+</head>
+<body>
+    <h1>
+        Learn Event
+    </h1>
+
+    <p>
+        tentang Inline Event dom
+    </p>
+
+    <button type="button" onclick="menyapa(nama)">
+        click menyapa
+    </button>
+
+    <button type="button" ondblclick="alert('Heloo Juga')">
+        click memanggil
+    </button>
+
+    <script>
+        const nama =  prompt("Masukan nama");
+
+        function menyapa(b){
+            alert(`Hello ${nama}`);
+        }
+    </script>
+</body>
+</html>
