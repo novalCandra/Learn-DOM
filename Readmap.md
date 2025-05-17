@@ -108,4 +108,20 @@
     - Cara Menghapus Element
         - removeChild() : kalau ingin menghapus element tersebut tentukan dan pakek fungsi nya
         sama aja bedanya ini bisa di pakek Browser yang lama.
-        - remove(): element mana yang ingin di hapus. 
+        - remove(): element mana yang ingin di hapus.
+
+
+### Nine Today
+    - Pengenalan Event DOM
+        1. Tentang Inline Event DOM
+            adalah dengan cara menambahkan event yang kita mau dengan attribut
+            onclik dan lain-lain nya.
+
+            didalam nya kita bisa melakukan code javascript nya
+            disaran jangan nya yah soal tidak rapi code nya.
+
+            // event ondblclick jika button di tekan sekali tidak ada reaksi kalau di tekan 2 kali ada reaksi
+            // event onclick jika button di klik sekali maka ada reaksi
+        Event / Kejadian
+
+### Ten Today
