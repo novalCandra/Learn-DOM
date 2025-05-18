@@ -125,3 +125,8 @@
         Event / Kejadian
 
 ### Ten Today
+    - Contoh Beberapa Event pada DOM Javascript
+    - Menjalankan Event Melalui Properti Today
+
+    # onmouseover adalah event jika diarahkan saja maka menampilkan output nya
+        didalam Event kita bisa segala element tidak harus button saja yah.
