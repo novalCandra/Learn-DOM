@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training Nine</title>
+</head>
+
+<body>
+
+    <head>
+        <h1>Halaman Lampu</h1>
+    </head>
+    <main>
+        <p>Membuat Halaman Lampu On and Off</p>
+        <img src="img/lampu_off.jpeg" alt="Lampu OFF" id="foto" />
+    </main>
+    <button type="button" onclick="onLampu(lampu)">Lampu Menyala</button>
+    <button type="button" onclick="offLampu(lampu)">Lampu Mati</button>
+    <button type="button" ondblclick="alert('Hello Can')">Click Me</button>
+    <button type="button" onclick="baground(ubah_body)" id="ubah_body">
+        ubah warna red
+    </button>
+    <script>
+        const lampu = document.querySelector("#foto");
+        const ubah_body = document.querySelector("body");
+
+        const baground = () => {
+            // const body = document.querySelector('body');
+            ubah_body.style.backgroundColor = 'red';
+        }
+        function onLampu(a) {
+            lampu.src = "img/lampu_online.jpg";
+        }
+
+        function offLampu(b) {
+            lampu.src = "img/lampu_off.jpeg";
+        }
+    </script>
+</body>
+
+</html>
