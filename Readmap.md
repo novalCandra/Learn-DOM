@@ -130,3 +130,12 @@
 
     # onmouseover adalah event jika diarahkan saja maka menampilkan output nya
         didalam Event kita bisa segala element tidak harus button saja yah.
+
+### Eleven Today
+    - Event addEventLIstener adalah event yang lebih power lagi
+    - Event addEventLIstener untuk menjalankan CallBack / atau function saat event di eksekusi
+    - Kalau Membahasa Call back yang dimana Call back bisa kita isi function dinamis
+
+    - Perbedaan saat menggunakan addEventLIstener dan memakai function dan Properti biasa
+    yang dimana nilai nya akan di replace atau di timpa oleh nilai baru, addEventLIstener bisa di pakek
+    nilai nya tidak replace meskipun ada nilai baru akan tetap memunculkan tanap khawatir di timpa.
