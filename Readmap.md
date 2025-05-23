@@ -128,7 +128,7 @@
     - Contoh Beberapa Event pada DOM Javascript
     - Menjalankan Event Melalui Properti Today
 
-    # onmouseover adalah event jika diarahkan saja maka menampilkan output nya
+    # conmouseover adalah event jika diarahkan saja maka menampilkan output nya
         didalam Event kita bisa segala element tidak harus button saja yah.
 
 ### Eleven Today
@@ -139,3 +139,31 @@
     - Perbedaan saat menggunakan addEventLIstener dan memakai function dan Properti biasa
     yang dimana nilai nya akan di replace atau di timpa oleh nilai baru, addEventLIstener bisa di pakek
     nilai nya tidak replace meskipun ada nilai baru akan tetap memunculkan tanap khawatir di timpa.
+
+### Two Eleven Today
+    - Learn Javascript DI W3 School
+        ## Tentang Output Javascript
+        1. Materi document.write() -> membuat Object Menulis.
+        2. Materi window.alert() -> Membuat Object Webb Browser akan menampilkan Pop Up
+        3. Materi alert() -> Menampilkan Pop up pada Document Browser
+        4. Materi Console.log() -> Menampilkan Output nya.
+        5. Materi window.print() -> Menampilkan Download Print pada Documents
+
+### Rhree Elevent Today
+    - Membahas Node dan Tipe-tipe Node
+    - Membahas Tentang Perbedaan NodeList dan HTMLCollection
+    1. HTMLCollection : adalah Element HTML yang ada Di Webb Apps yang kita Buat
+    2. NodeList : adalah kumpulan isi yang tidak peduli Tipe nya.
+
+    HTMLColecction adalah Kumpulan Element-elment HTML
+    NodeList adalah Kumpulan node dan tidak peduli Tipe nya.
+
+    HTMLColecction Bersifat Live , Sedangkan NodeList tidak bersifat Live.
+
+    - Membahas Struktur DOM Hireaki
+        1. Root Node : yang artinya node ini paling tinggi di Web Browser App yang kita Buat
+            - document : adalah node paling tinggi
+        2. Parent Node : adalah node ini 1 lebih tinggi dari node yang lain
+            seperti : h1, p, DLL
+        3. Child Node: adalah node ini 1 tingkat bawah dari node di atas nya
+            seperti : h1 yang ada di node Body
