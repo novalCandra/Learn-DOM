@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nine Training</title>
+</head>
+
+<body>
+
+    <head>
+        <h1>Hello Guys</h1>
+    </head>
+
+    <main>
+        <p>
+            Yuk Kita Buatkan Sebuah Web Lampu Hidup dan Mati
+        </p>
+
+        <img src="img/lampu_off.jpeg" alt="Foto Lampu Mati" id="foto">
+
+        <!-- Lampu Menyala -->
+        <button type="button" id="menyala">
+            Lampu Menyala
+        </button>
+        <!-- Lampu Mematikan -->
+        <button type="button" id="mematikan">
+            Lampu Memamatikan
+        </button>
+
+        <button type="button" id="ubah_body">
+            ubah_body
+        </button>
+    </main>
+
+    <footer>
+        &copy; Training 22/05/2025
+    </footer>
+
+    <script>
+        const menyala = document.querySelector('#menyala');
+        const mematikan = document.querySelector('#mematikan');
+        const dokument_website = document.querySelector('body');
+
+        const image = document.querySelector('#foto');
+        menyala.addEventListener('click', function(){
+
+            image.src = './img/lampu_online.jpg';
+        })
+
+        mematikan.addEventListener('click', function(){
+            image.src = './img/lampu_off.jpeg';
+        })
+
+        dokument_website.addEventListener('click', function(){
+            dokument_website.style.backgroundColor = 'red';
+            console.log('Muncul Warna Merah')
+        })
+
+    </script>
+</body>
+
+</html>
