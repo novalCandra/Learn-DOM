@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training Genereate Color</title>
+  </head>
+
+  <body>
+    <head>
+      <h1>Genereate Color</h1>
+    </head>
+
+    <main>
+      <button type="button" id="tombol_ubah_warna">Genereate Color</button>
+    </main>
+    <br />
+    <footer>&copy; Training Generate Color 25/05/2025</footer>
+
+    <script>
+      const button_ubah_warna = document.querySelector("#tombol_ubah_warna");
+      const judul_warna = document.querySelector("h1");
+
+
+    // Saat Tombol akan melakukaan perubahan
+      button_ubah_warna.addEventListener("click", () => {
+        const perubahan_body = generateWarnaRandom();
+        document.body.style.backgroundColor = `${perubahan_body}`; // perubah warna body secara random
+        judul_warna.innerText = perubahan_body;
+        judul_warna.style.color = 'white'; // perubah warna judul menjadi white
+      });
+
+      const generateWarnaRandom = () => {
+        // WARNA RGB
+        const red = Math.floor(Math.random() * 255);
+        const green = Math.floor(Math.random() * 255);
+        const blue = Math.floor(Math.random() * 255);
+
+        return `Rgb(${red}, ${green}, ${blue})`;
+      };
+    </script>
+  </body>
+</html>
