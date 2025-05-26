@@ -149,7 +149,7 @@
         4. Materi Console.log() -> Menampilkan Output nya.
         5. Materi window.print() -> Menampilkan Download Print pada Documents
 
-### Rhree Elevent Today
+### Three Elevent Today
     - Membahas Node dan Tipe-tipe Node
     - Membahas Tentang Perbedaan NodeList dan HTMLCollection
     1. HTMLCollection : adalah Element HTML yang ada Di Webb Apps yang kita Buat
@@ -167,3 +167,8 @@
             seperti : h1, p, DLL
         3. Child Node: adalah node ini 1 tingkat bawah dari node di atas nya
             seperti : h1 yang ada di node Body
+
+
+### Four Elevent Today
+    - Latian Addvelistner untuk Generate Color
+    
