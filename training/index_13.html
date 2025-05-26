@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training Three Elevent</title>
+</head>
+<body>
+    <head>
+        <h1>
+            Project Three Elevent
+        </h1>
+    </head>
+    <main>
+        <h1>
+            Project Percakapan
+        </h1>
+
+        <p>
+            Jika Button Ditekan maka akan Menampilkan Percakapan Sederhana
+        </p>
+
+        <button type="button" onclick="Percakapan()">
+            Percakapan
+        </button>
+
+        <p id="percakapan_1"></p>
+        <p id="percakapan_2"></p>
+    </main>
+
+    <script>
+        // Variable Nama
+        let nama = prompt("Masukan Nama");
+
+
+        // Percakapan
+        // let orang_pertama = document.querySelector('#percakapan_1')
+        // let orang_kedua = document.querySelector('#percakapan_2')
+        
+        // Membuat Function jika Button Ditekan
+        function Percakapan(){
+            document.querySelector('#percakapan_1').innerText = `Hello ${nama}`;
+            document.querySelector('#percakapan_2').innerText = `Hi, How Are You ${nama}`;
+        };
+    </script>
+</body>
+</html>
