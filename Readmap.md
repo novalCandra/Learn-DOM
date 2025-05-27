@@ -122,7 +122,11 @@
 
             // event ondblclick jika button di tekan sekali tidak ada reaksi kalau di tekan 2 kali ada reaksi
             // event onclick jika button di klik sekali maka ada reaksi
-        Event / Kejadian
+        Event adalah Kejadian
+
+        2. What`s Event
+            - Event adalah sebuah Kejadian
+            - MenindakLajuti inputan atau Perintah Pengguna.
 
 ### Ten Today
     - Contoh Beberapa Event pada DOM Javascript
@@ -171,4 +175,15 @@
 
 ### Four Elevent Today
     - Latian Addvelistner untuk Generate Color
-    
+
+
+### Five Elevent Today
+    - Belajar Keyboard Event dan Mengenal Object Dalam Event
+        1. Pengenalan Object di dalam Event
+        2. Mempelejari keydown, keyup
+        3. Object yang di pakek intuk Event Keyboard Menggunakan
+            - code : yang dimana dia fungsi untuk mengetahui user menekan keyboard dimana
+
+        4. Mempeljari onmouseup dan mousedown
+            - mousedown jika di arahkan mouse kita akan memuncul kan sebuah event atau kejadian
+            - onmouseup jika di klik maka akan memunculkan sebuah event atau kejadian
