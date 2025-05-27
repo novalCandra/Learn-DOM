@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training Keyboard Event dan Object</title>
+  </head>
+  <body>
+    <head>
+      <h1>Training Keyboard Event dan Object</h1>
+    </head>
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut cupiditate
+        molestias libero eius porro quia. Voluptatibus veniam doloribus, iusto,
+        molestiae provident necessitatibus qui itaque praesentium excepturi ad,
+        alias autem? Corrupti.
+      </p>
+      <input type="text" />
+    </main>
+
+    <script>
+      const input = document.querySelector("input");
+
+      input.addEventListener("keydown", (event_object) => {
+        switch (event_object.code) {
+          case "KeyA":
+            console.log("Tombol A");
+            break;
+          case "KeyW":
+            console.log("Tombol W");
+            break;
+          case "KeyS":
+            console.log("Tombol S");
+            break;
+          case "KeyD":
+            console.log("Tombol D");
+            break;
+            default:
+                console.log(`Tombol ${event_object.code}`)
+        }
+      });
+    </script>
+  </body>
+</html>
