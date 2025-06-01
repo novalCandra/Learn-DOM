@@ -187,3 +187,16 @@
         4. Mempeljari onmouseup dan mousedown
             - mousedown jika di arahkan mouse kita akan memuncul kan sebuah event atau kejadian
             - onmouseup jika di klik maka akan memunculkan sebuah event atau kejadian
+
+### Six Elevent Today
+    - Mengenal Event Preventdefault
+        1. Mempeljari Change
+            - Change sama dengan keydown dan keyup bedanya
+                change akan memunculkan hasil Karakter pada keyboard
+                selain itu maka tidak akan memunculkan apa-apa.
+
+
+### Seven Elevent Today
+    1. Manfaatkan Keyword This Pada Event Dom
+    2. Perulangan for of
+        - kegunaan for of akan melakukan perulangan dari nilai Object
