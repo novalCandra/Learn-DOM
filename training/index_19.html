@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Training Keyboard Event</title>
+  </head>
+  <body>
+    <h1>Training Keyboard Event</h1>
+    <input type="text" />
+    <button type="button">Submit</button>
+
+    <script>
+      // Object Didalam Event
+      document.querySelector("button").addEventListener("click", (event) => {
+        console.log(event);
+      });
+      // jadi kita ngambil query button dan akan memunculkan suatu kejadian click
+      // yang dimana saat tekan maka akan memunculkan output Object event yang kita tentukan
+      // di paramerer tersebut
+      const input = document.querySelector("input")
+
+      input.addEventListener("keydown", (event) => {
+        // console.log(event); // dia akan memberi tahu posisi user menekan keybooard
+        // console.log(event.code)// dia akan memberi tahu mekan keyboard
+        switch (event.code) {
+          case "KeyA":
+            console.log("Button Left");
+            break;
+          case "KeyW":
+            console.log("Button Top");
+            break;
+          case "KeyS":
+            console.log("Button Center");
+            break;
+          case "KeyD":
+            console.log("Button Right");
+            break;
+            default:
+                console.log(`Tombol ${event.code}`)
+        }
+        // memperhatikan value dari object keyboard Event
+      });
+
+      // document.querySelector('input').addEventListener('keyup', (event) => {
+      //     console.log('Tombol Ditekan')
+      // });
+    </script>
+  </body>
+</html>
