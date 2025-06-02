@@ -198,5 +198,9 @@
 
 ### Seven Elevent Today
     1. Manfaatkan Keyword This Pada Event Dom
-    2. Perulangan for of
-        - kegunaan for of akan melakukan perulangan dari nilai Object
+    2. Perulangan for of [X]
+        - kegunaan for of akan melakukan perulangan dari nilai Object [X]
+    3. Praktek Input Realtime Dengan Event Dan Dom [X]
+    4. Event Input Dan Change Pada Form
+        - mengenal addEventListener change, dan input
+            di dalam form.
