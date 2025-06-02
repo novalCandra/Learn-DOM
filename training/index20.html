@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Button</title>
+    <style>
+        button {
+            height: 100px;
+            width: 100px;
+            margin: 20px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>
+        Random Button
+    </h1>
+    <button type="button">Click Color!</button>
+    <button type="button">Click Color!</button>
+    <button type="button">Click Color!</button>
+
+    <script>
+        const buttons = document.querySelectorAll('button');
+
+        // Random Warna Berdasarkan RGB
+        const RandomColorRgb = () => {
+            const r = Math.floor(Math.random() * 255);
+            const g = Math.floor(Math.random() * 255);
+            const b = Math.floor(Math.random() * 255);
+
+            return `rgb(${r}, ${g}, ${b})`
+        };
+
+
+        // melakukan perulangan Object
+        for(let button of buttons){
+            button.addEventListener('click', () => {
+                button.style.backgroundColor = RandomColorRgb();
+                button.style.color = 'white';
+            })
+        }
+    </script>
+</body>
+</html>
