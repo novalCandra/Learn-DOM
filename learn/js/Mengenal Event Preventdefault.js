@@ -8,9 +8,12 @@ const list = document.querySelector('#node')
 // })
 
 form.addEventListener('submit', function(e){
-    e.preventDefault();
+    e.preventDefault(); // Mencegah sesuatu action atau kebiaasaan sebuah element
     const newValue = input.value;
     console.log(newValue);
 })
 
-// okeh masih belum selesai akan saya kerjakan kembali habis pulang sekolah
+document.querySelector('a').addEventListener('click', (event) => {
+    event.preventDefault();
+    console.log('Dicegah');
+})
