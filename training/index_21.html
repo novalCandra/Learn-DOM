@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Number</title>
+</head>
+<body>
+    <h1>
+        Buttons Number
+    </h1>
+
+    <p>
+        0
+    </p>
+    <button>
+        Tambah Number
+    </button>
+
+    <script>
+        const buttons = document.querySelector('button');
+        const p = document.querySelector('p')
+
+        let angka = 0; 
+        buttons.addEventListener('click', () => {
+           angka += 1;
+           p.innerText = angka;
+        })
+    </script>
+</body>
+</html>
