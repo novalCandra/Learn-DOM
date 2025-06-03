@@ -204,3 +204,15 @@
     4. Event Input Dan Change Pada Form
         - mengenal addEventListener change, dan input
             di dalam form.
+
+### Eight Eleven Today
+    1. Mengenal Event Bubbling
+        - adalah sebuah event yang di bungkus oleh element lain.
+        - mengenal toggle 
+    2. Mengenal Event Delegation
+        - ingin menghapus elmenet li saat di tekan
+
+### Nine Eleven Today
+    1. Latian Pembuatan Latian Skor
+        - [X] membuat keranngka
+        - [X] membuat logic user saat menekan buttons
